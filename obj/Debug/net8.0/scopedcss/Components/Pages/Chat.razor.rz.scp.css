@@ -1,0 +1,73 @@
+/* Chat.razor.css */
+
+/* Główne opakowanie dla komponentu */
+.chat-container[b-web8xtypdf] {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Stylizacja nagłówka */
+h3[b-web8xtypdf] {
+    text-align: center;
+    color: #555;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Wiadomości */
+.alert[b-web8xtypdf] {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* Wiadomości użytkownika */
+.alert-primary[b-web8xtypdf] {
+    background-color: #007bff;
+    color: white;
+    text-align: right;
+}
+
+/* Wiadomości bota */
+.alert-secondary[b-web8xtypdf] {
+    background-color: #e9ecef;
+    color: #333;
+    text-align: left;
+}
+
+/* Pole tekstowe */
+.form-control[b-web8xtypdf] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+/* Przycisk */
+.btn-primary[b-web8xtypdf] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover[b-web8xtypdf] {
+    background-color: #0056b3;
+}
